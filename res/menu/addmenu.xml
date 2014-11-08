@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.phonebook.ContactAdd" >
+
+    <!-- Discard -->
+    <item
+        android:id="@+id/action_discard"
+        android:icon="@drawable/discard"
+        android:showAsAction="always"
+        android:title="@string/discard_changes"/>
+
+    <!-- Save -->
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/done"
+        android:showAsAction="always"
+        android:title="@string/save"/>
+
+</menu>
